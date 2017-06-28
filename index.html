@@ -37,9 +37,9 @@
                 <a class="navbar-brand" href="index.html">Hello</a>
                 <ul class="nav navbar-nav">
                     <!-- Listpunkterna här blir knappar för dina olika menyval i menyn -->
-                    <li><a href="menyval1.html">A</a></li>
-                    <li><a href="menyval2.html">B</a></li>
-                    <li><a href="menyval3.html">C</a></li>
+                    <li><a href="menyval1.html">Friend requests</a></li>
+                    <li><a href="menyval2.html">Messages</a></li>
+                    <li><a href="menyval3.html">Notifications<span class="badge">3</span></a></li>
                 </ul>
             </div>
         </nav>
@@ -47,8 +47,81 @@
 
     <!-- I main finns huvudsakliga innehållet, exempelvis blogginlägg eller topplistor -->
     <main>
-
+        <p><span class="glyphicon glyphicon-search" aria-hidden="true"></span></p>
         <img src="bilder/test.png">
+
+        <button type="button" class="btn btn-default" aria-label="Left Align">
+  <span class="glyphicon glyphicon-align-left" aria-hidden="true"></span>
+</button>
+
+
+    <div class="dropdown">
+  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+    Dropdown
+    <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+    <li><a href="#">Action</a></li>
+    <li><a href="#">Another action</a></li>
+    <li><a href="#">Something else here</a></li>
+    <li role="separator" class="divider"></li>
+    <li><a href="#">Separated link</a></li>
+  </ul>
+</div>
+
+<ul class="nav nav-tabs">
+  <li role="presentation" class="active"><a href="#">Home</a></li>
+  <li role="presentation" ><a href="#">Profile</a></li>
+  <li role="presentation"><a href="#">Messages</a></li>
+</ul>
+
+
+<ol class="breadcrumb">
+  <li><a href="#">Home</a></li>
+  <li><a href="#">Library</a></li>
+  <li class="active">Data</li>
+</ol>
+
     </main>
+
+    <h1>Title!<span class="label label-success">FREE</span></h1>
+
+
+<div class="row">
+  <div class="col-xs-6 col-md-3">
+    <a href="#" class="thumbnail">
+      <img src="bilder/test.png" alt="...">
+    </a>
+  </div>
+  <div class="col-xs-6 col-md-3">
+    <a href="#" class="thumbnail">
+      <img src="bilder/test.png" alt="...">
+    </a>
+  </div>
+  <div class="col-xs-6 col-md-3">
+    <a href="#" class="thumbnail">
+      <img src="bilder/test.png" alt="...">
+    </a>
+  </div>
+  <div class="col-xs-6 col-md-3">
+    <a href="https://www.google.com" class="thumbnail">
+      <img src="bilder/test.png" alt="...">
+    </a>
+  </div>
+</div>
+
+<div class="alert alert-warning alert-dismissible" role="alert">
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+  <strong>Warning!</strong> Better check yourself, you're not looking too good.
+</div>
+
+
+<div class="progress">
+  <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+    <span class="sr-only">40% Complete (success)</span>
+  </div>
+</div>
+
+
 </body>
 </html>
